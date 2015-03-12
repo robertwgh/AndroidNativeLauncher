@@ -1,6 +1,9 @@
 # Android Native Launcher
 An Android application which allows to execute native program.
 
+## Screenshot
+<img src="https://raw.githubusercontent.com/robertwgh/AndroidNativeLauncher/master/screenshot/test1.png?raw=true" alt="NativeLauncher screenshot" height="400"/>
+
 ## Benifits
 * Do not require ROOT permission. Enabling native program execution on non-rooted devices.
 * Allows to run native code without USB cable and ADB. This is very important for some special purpose, for example, if we want to measure power consumption of the devices when running the native code, we don't want to connect USB cable which will provide power to the device.
@@ -36,12 +39,9 @@ An Android application which allows to execute native program.
 ## Examples
 Two examples are provided to demonstrate the usage of native program launcher. Pre-compiled binaries are provided under *bin* folder. But you can also compile them using ndk-bulid.
 
-1. How to compile: 
+1. Compile the examples with Android NDK: 
   1. Have ndk installed and ndk-build is in the system path.
   2. in shell, run ./build_examples.sh. Then you have the binareis in bin folder. 
 2. example1 shows basic usage, and command line arguments. You can set up command line arguments, and they will be displayed one by one. 
 3. example2 shows the case where we have executable file along with shared library.
-
-## Screenshot
-<img src="https://raw.githubusercontent.com/robertwgh/AndroidNativeLauncher/master/screenshot/test1.png?raw=true" alt="NativeLauncher screenshot" height="400"/>
 
