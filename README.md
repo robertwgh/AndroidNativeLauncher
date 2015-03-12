@@ -4,6 +4,7 @@ An Android application which allows to execute native program.
 ## Benifits
 * Do not require ROOT permission. Enabling native program execution on non-rooted devices.
 * Allows to run native code without USB cable and ADB. This is very important for some special purpose, for example, if we want to measure power consumption of the devices when running the native code, we don't want to connect USB cable which will provide power to the device.
+* Help debug native code before porting it using JNI code in an Android app.
 
 ## Features
 * Support loading native program from sdcard.
@@ -12,8 +13,11 @@ An Android application which allows to execute native program.
 * Support subfolders. Input files and configurations loaded by the native program can be put in subfolders, in the native program, use relative path to access them.
 * Support output files. Output files can be retrieved from the working directory.
 
+## Install
+* Install is simple. Download the apk file under *android_apk*, and install it on your Android device. Then you are good to go.
+
 ## Instructions
-  1. Copy your native program (compiled by ndk-build) in a folder on your sdcard, e.g. /sdcard/test/
+  1. Copy your native program (compiled by ndk-build) in a folder on your sdcard, e.g. /sdcard/test/.
   2. Copy all dependent shared libraries (.so) to that folder.
   3. Copy input files to the same folder.
   4. Press the button "Load native program".
