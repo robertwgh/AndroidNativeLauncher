@@ -43,4 +43,5 @@ Two examples are provided to demonstrate the usage of native program launcher. P
 3. example2 shows the case where we have executable file along with shared library.
 
 ## Screenshot
-![alt tag](https://raw.githubusercontent.com/robertwgh/AndroidNativeLauncher/master/screenshot/test1.png)
+<img src="https://raw.githubusercontent.com/robertwgh/AndroidNativeLauncher/master/screenshot/test1.png?raw=true" alt="NativeLauncher screenshot" height="400"/>
+
