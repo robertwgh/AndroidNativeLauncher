@@ -1,4 +1,4 @@
-# AndroidNativeLauncher
+# Android Native Launcher
 An Android application which allows to execute native program.
 
 ## Benifits
