@@ -33,6 +33,14 @@ An Android application which allows to execute native program.
 3. Q: How to use subfolder?
   * Subfolder can be accessed via relative path. For example, if we have a folder named "image" in working directory containing an input image "lena.png", in your code, you can access it via *image/lena.png*. Your output files will also be under the working directory.
 
+## Examples
+Two examples are provided to demonstrate the usage of native program launcher. Pre-compiled binaries are provided under *bin* folder. But you can also compile them using ndk-bulid.
+
+1. How to compile: 
+  1. Have ndk installed and ndk-build is in the system path.
+  2. in shell, run ./build_examples.sh. Then you have the binareis in bin folder. 
+2. example1 shows basic usage, and command line arguments. You can set up command line arguments, and they will be displayed one by one. 
+3. example2 shows the case where we have executable file along with shared library.
 
 ## Screenshot
 ![alt tag](https://github.com/robertwgh/AndroidNativeLauncher/blob/master/screenshot/test1.png)
