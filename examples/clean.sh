@@ -1,10 +1,12 @@
 #!/bin/sh
 
+echo "rm bin"
 rm -rf bin
-mkdir -p bin
-mkdir -p bin/example1
-mkdir -p bin/example2
-cp example1/libs/armeabi-v7a/* bin/example1
-cp example2/libs/armeabi-v7a/* bin/example2
-
-echo "Copied binaries to bin folder."
+echo "rm example1/libs"
+rm -rf example1/libs
+echo "rm example1/obj"
+rm -rf example1/obj
+echo "rm example2/libs"
+rm -rf example2/libs
+echo "rm example2/obj"
+rm -rf example2/obj
