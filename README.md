@@ -12,3 +12,6 @@ An Android application which allows to execute native program.
 * Support subfolders. Input files and configurations loaded by the native program can be put in subfolders, in the native program, use relative path to access them.
 * Support output files.
 * 
+
+## Screenshot
+![alt tag](https://github.com/robertwgh/AndroidNativeLauncher/blob/master/screenshot/test1.png)
