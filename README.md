@@ -2,7 +2,7 @@
 An Android application which allows to execute native program built by `ndk-buld`.
 
 >Please read this article for more details:
-http://web.guohuiwang.com/technotes/nativelauncher
+http://web.guohuiwang.com/technical-notes/nativelauncher
 
 ## Screenshot
 <img src="https://raw.githubusercontent.com/robertwgh/AndroidNativeLauncher/master/screenshot/test1.png?raw=true" alt="NativeLauncher screenshot" height="400"/>
