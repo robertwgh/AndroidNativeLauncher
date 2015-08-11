@@ -38,8 +38,8 @@ http://web.guohuiwang.com/technical-notes/nativelauncher
   * A: In the textedit field, type your custom library path. Please notice that, your working directory will be added to `LD_LIBRARY_PATH` automatically. For example, if you type "`mylib`" in the field, the `LD_LIBRARY_PATH` will be set as `LD_LIBRARY_PATH=mypath:working_directory:$LD_LIBRARY_PATH.`
 3. Q: How to use subfolder?
   * A: Subfolder can be accessed via relative path. For example, if we have a folder named "`image`" in working directory containing an input image "`lena.png`", in your code, you can access it via `image/lena.png`. Your output files will also be under the working directory.
-4. Q: I was not able load the binary after I clicked "Load Native Program" button.
-  * A: On some devices (especially some factory testing devcies), there is no default file explorer. Please install one from Play store. Basically any file explorer can do the job. The "ES file explorer" is a good one to start if you have no preference. 
+4. Q: I was not able to load the binary after I clicked "Load Native Program" button?
+  * A: On some devices (especially some factory testing devcies), there is no default file explorer. Please install one from the Google Play Store. Basically, any file explorer can do the job. The "ES file explorer" is a good one to start, if you have no preference. 
   
 
 ## Examples
